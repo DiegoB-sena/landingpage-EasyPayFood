@@ -1,0 +1,537 @@
+body{
+  font-family: verdana;
+  font-size:12px;
+}
+
+header .navbar-expand-lg{
+  background:rgba(255, 204, 0,.9);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+header .navbar-expand-lg .navbar-collapse{
+  justify-content: center;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link{
+  color:white;
+  font-size:15px;
+  font-weight: 300;
+  padding:0 15px;
+  
+}
+header .navbar-expand-lg .navbar-nav .nav-link:hover{
+  background: rgba(51, 0, 0, .2);
+}
+  
+header .navbar-brand{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header .navbar-brand img{
+  max-width:70px;
+}
+
+header .navbar-toggler:focus, .navbar-toggler:hover{
+  outline: none;
+  
+}
+
+header .text-flotante{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white; 
+}
+
+
+
+header .text-flotante button{
+  background: transparent;
+  border: 2px solid  white;
+  padding: 3px 30px;
+  margin-top:70px;
+  font-size:20px;
+  color: white;
+  
+}
+
+header .d-md-block{
+  font-weight: 500;
+  bottom:25%;
+}
+
+
+#seccion1{
+  width: 100%;
+  padding:50px 0;
+   
+}
+
+#seccion1  h2{
+  text-align: center;
+  padding-bottom:30px;
+  color: #330000;
+  font-weight:500;
+  
+}
+
+
+#seccion1 .cont-text{
+max-width: 800px;
+text-align:justify;
+margin: auto;
+padding-right: 20px; /* nuevos */
+padding-left: 20px;
+padding-bottom: 50px;
+font-size: 20px;
+}
+#seccion1 .cont-text b{
+  color:#ffcc00;
+}
+
+#seccion1 .tarjeta{
+   margin:0px 5px; 
+}
+
+#seccion1 .tarjeta img{
+width: 100%;
+height: 100%;
+}
+
+
+#seccion2{
+  background:white;
+  padding-bottom:80px;
+}
+
+#seccion2 .servicios{
+background:rgba(255, 204, 0,.9);
+height: 200px;/* cambio */
+/* position: relative; */
+
+
+}
+#seccion2 .servicios h2{
+  width:46%;
+  position: absolute;
+  text-align: center;
+ margin-top: 125px;
+ color: #330000;
+ font-weight:400;
+ 
+ 
+}
+ #seccion2 .servicios h2::before{
+  content: "";
+  position: absolute;
+  width: 375px;
+  height: 3px;
+  background: #330000;
+  bottom: 0;
+} 
+
+
+#seccion2 .servicios  img{
+  width:50%;
+  height:100%;
+  max-height: 200px;
+  float: right;
+  clip-path: polygon(7% 0, 100% 0%, 100% 100%, 0% 100%);
+  
+}
+
+#seccion2 .servicios1{
+  margin-top: 50px; 
+}
+
+
+
+/*  #seccion2 .uno{
+  background: red;
+  
+}
+
+#seccion2  .dos{
+  background:green;
+
+} */ 
+
+
+
+#seccion2 .circulo1{
+  width: 200px;
+  height: 200px;
+  border-radius:100%;
+  background: rgba(51, 0, 0, .8);
+  margin: 0 auto;
+  margin-top: 20px;
+  padding:25px;
+  border:5px solid  rgba(0, 0, 0, .4);
+  
+}
+
+
+#seccion2 .circulo2{
+  width: 200px;
+  height: 200px;
+  border-radius:100%;
+  background:rgba(255, 204, 0,.8);
+  margin: 0 auto;
+  margin-top:20px;
+  padding:25px;
+  border:5px solid  rgba(0, 0, 0, .4);
+  
+}
+
+#seccion2 .circulo1 img{
+  max-width:100%;
+ 
+  
+} 
+
+#seccion2 p{
+  margin-top:10px;
+  font-weight: 600;
+  text-align: center; 
+  font-weight:700; 
+
+}
+
+#seccion2 .circulo2 img{
+  max-width:100%;
+ 
+  
+} 
+
+#seccion3{
+  background:url("../img/grupotrabajo.jpg");
+  background-position-x: center;
+  background-repeat: none;
+  background-size: cover;
+  padding-bottom:45px;
+}
+
+#seccion3 h2{
+  padding-top:80px;
+  padding-bottom:130px;
+  text-align: center;
+  font-weight:500;
+  color: white;
+}
+
+
+#seccion3 .cont-equipo{
+  background:rgba(255, 255, 255, .5);
+  padding-bottom:50px;
+  border:5px solid white ;
+  margin-bottom:120px; 
+}
+
+
+#seccion3 .cont-equipo img{
+  border-radius:50%;
+  max-width:150px;
+  border: 5px solid white;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: -80px;
+}
+
+#seccion3 .cont-text{
+ /*  padding-top:80px; */
+  text-align: justify;
+  padding:80px 20px 0px 20px;
+  
+}
+
+#seccion3 .cont-text h5{
+  text-align: center; 
+  color: #330000;
+  font-weight:700;
+  
+}
+#seccion3 .cont-text h6{
+  text-align: center;
+  font-weight:400;
+  color:#330000;
+  
+}
+
+footer{
+  width: 100%;
+  background: #330000;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-family:verdana;
+}
+
+footer .cont-redes{
+  padding:25px 0;
+  text-align: center;
+}
+
+footer .cont-redes img{
+background: rgba(255, 204, 0,.5);
+margin-top: 20px;
+padding:15px;
+}
+
+footer .cont-redes img:hover{
+  transform:translateY(-3px); scale:1.05;
+}
+footer .cont-redes .facebook:hover{
+  background:#3b5998;
+}
+
+footer .cont-redes .instagram:hover{
+  background: #de4871;
+}
+
+footer .cont-redes .whatsapp:hover{
+  background:#25d366
+}
+
+footer .cont-redes .twiter:hover{
+  background:#1da1f2;
+}
+
+footer .cont-contacto{
+  padding:25px 0;
+  text-align: center;
+
+}
+
+ footer .cont-contacto h5{
+   padding-top: 10px;
+ }
+
+
+footer .cont-maps{
+  padding:25px 0;
+  text-align: center;
+ 
+}
+
+footer .cont-maps .mapa{
+height:220px;
+margin: auto;
+max-width:300px;
+border: 4px  solid #ffcc00;
+}
+
+footer .cont-maps  .mapa iframe{
+  width: 100%;
+  height: 100%;
+}
+
+footer .cont-final{
+  padding:5px 0 ;
+  width: 100%;
+  background:#ffcc00;
+  color: #330000;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+
+
+
+/* celular */
+
+@media screen and (max-width:500px) and (min-width:320px){ 
+
+
+  header .navbar-expand-lg .navbar-nav .nav-link{
+  border-top: 1px solid rgba(51, 0, 0, .5);
+  
+}
+
+header .navbar-brand img{
+ max-width:40px; 
+  padding-top:12px;
+}
+  
+header .text-flotante{
+ top:30%;
+}
+header .text-flotante h1{
+    font-size:18px;   
+  }
+
+header .text-flotante h5{
+    font-size:10px;
+     }
+
+header .text-flotante button{
+  border: 1px solid  white;
+  padding: 1px 5px;
+  margin-top:2px;
+  font-size:10px;
+  color: white;
+  }
+
+
+.carousel-indicators{
+margin-bottom: 0; 
+  }
+
+ .carousel-indicators li{
+    width: 25px;
+  } 
+#seccion2 .servicios h2::before{
+   width: 120px;
+   height:1px;
+  } 
+
+#seccion2 .servicios h2{
+    margin-top: 80px;
+    font-size:20px;
+  }
+}
+/* tablet */
+@media screen and (max-width:768px) and (min-width:501px){
+ 
+  header .navbar-brand img{
+    max-width: 50px;
+    
+  }
+  
+header .text-flotante{
+    top:22%;
+    
+   }
+header .text-flotante h1{
+font-size:25px;
+   }
+ header .text-flotante h5{
+font-size:15px;
+ }
+
+header .text-flotante button{
+  border: 1px solid  white;
+  padding: 2px 10px;
+  margin-top:20px;
+  font-size:15px;
+  color: white;
+}
+
+  #seccion2 .servicios h2::before{
+    width: 240px;
+    height:1px;
+   } 
+ 
+   #seccion2 .servicios h2{
+     margin-top:85px;
+     font-size:20px;
+   }
+
+   #seccion3 .cont-text h6 {
+     font-weight:200px;
+     font-size:12px;
+   }
+   footer .cont-contacto h5{
+    font-size:15px;
+   }
+   footer .cont-maps .mapa{
+   padding: 0;
+   margin:0 ;
+  max-width:180px;
+  margin: auto;
+   }
+}
+ /* mas tamaño */
+@media screen and (max-width:1024px) and (min-width:769px){
+  header .text-flotante{
+    top:30%;
+   }
+
+header .text-flotante button{
+  border: 2px solid  white;
+  padding: 2px 10px;
+  margin-top:50px;
+  font-size:15px;
+  color: white;
+}
+
+#seccion3 .cont-text h6 {
+  font-weight:200px;
+  font-size:10px;
+}
+
+footer .cont-redes img{
+  padding:5px;
+}
+footer .cont-maps .mapa{
+  max-width:200px;
+  max-height:200px;
+}
+footer .cont-contacto h5{
+  font-size:15px;
+}
+}
+
+/* menor tamaño */
+@media screen and (max-width:319px) and (min-width:200px){
+  header .navbar-brand img{
+    max-width:35px;
+  }
+  header .text-flotante{
+    top:28%;
+   }
+header .text-flotante h1{
+       font-size:8px;   
+}
+header .text-flotante h5{
+  font-size:5px;
+   } 
+
+header .text-flotante button{
+ border: 1px solid  white;
+ padding: 1px 3px;
+ margin-top:1px;
+ font-size:4px;
+ color: white;
+}
+
+.carousel-indicators{
+  margin-bottom: 0;
+  
+}
+.carousel-indicators li{
+  max-width:8px;
+    }
+ #seccion2 .servicios h2::before{
+  width: 90px;
+  height:1px;
+} 
+     
+#seccion2 .servicios h2{
+  margin-top: 80px;
+  font-size:15px;
+} 
+
+#seccion3 .cont-text h6 {
+  font-weight:200px;
+  font-size:10px;
+}
+
+footer .cont-contacto h5{
+ font-size:15px;
+} 
+  
+footer .cont-maps img{
+  padding: 0;
+  margin:0 ;
+   max-width:180px;
+}
+}
